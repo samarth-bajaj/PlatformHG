@@ -60,6 +60,4 @@ public class BasketPage {
     public BasketPage removeTshirtRedFromBasket() {
         driver.findElement(SiteItems.TSHIRT_RED_RFC).click(); return this;
     }
-
-    // Add more methods as needed for interacting with the basket page
 }
